@@ -1,0 +1,12 @@
+{
+  "foundryUrl": "https://palin.usw-16.palantirfoundry.com",
+  "site": {
+    "application": "ri.third-party-applications.main.application.ed5e1daf-894b-4e92-aac8-9c3517de6b9b",
+    "directory": "./dist",
+    "autoVersion": {
+      "type": "git-describe",
+      "tagPrefix": ""
+    },
+    "uploadOnly": false
+  }
+}
