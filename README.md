@@ -93,7 +93,7 @@ This project is built and run on [Palantir Foundry](https://www.palantir.com/pla
 
 ### Project Structure
 ```
-EFD/
+enterprise-fraud-detection-model/
 ├── README.md
 ├── python-transforms/       # Data pipeline transforms
 │   ├── pipeline.py
