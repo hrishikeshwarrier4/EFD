@@ -1,0 +1,44 @@
+export interface JoinedTransaction {
+  transactionId: string;
+  customerId: string;
+  timestamp: string;
+  amount: number;
+  merchantCategory: string;
+  deviceType: string;
+  transactionCity: string;
+  latitude: number;
+  longitude: number;
+  customerAge: number;
+  customerHomeCity: string;
+  homeLat: number;
+  homeLon: number;
+  customerMonthlyLimit: number;
+  riskScore: number;
+  hour: number;
+  weekday: number;
+  isWeekend: number;
+  isNightTxn: number;
+  isBusinessHours: number;
+  timeDiffFromLastTxn: number;
+  isRapidTxn: number;
+  customerTxnCount24h: number;
+  customerTotalAmount24h: number;
+  customerAvgAmount24h: number;
+  isHighAmount: number;
+  isVeryHighAmount: number;
+  customerTotalAmount1month: number;
+  exceedsMonthlyLimit: number;
+  amountOverAvg24h: number;
+  isUnusualSpending: number;
+  riskAmountInteraction: number;
+  isYoungCustomer: number;
+  isSeniorCustomer: number;
+  fraudProbability: number;
+  isFraudPredicted: number;
+  thresholdUsed: number;
+  distanceFromHome?: number;
+  triageStatus?: "new" | "under_review" | "resolved" | "escalated";
+}
+
+export type DateRange = "today" | "7d" | "30d" | "all";
+export type NavPage = "dashboard" | "transactions" | "fraud-alerts" | "city-intelligence" | "customer-profiles" | "settings";
